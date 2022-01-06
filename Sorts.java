@@ -9,7 +9,7 @@ public class Sorts{
     data.set(index2,currentVal);
   }
 
-  public static void bubble( ArrayList<Comparable> data )
+  public static void bubbleSortV( ArrayList<Comparable> data )
   {
     int passes = data.size()-1;
     while (passes > 0) {
@@ -21,7 +21,19 @@ public class Sorts{
         passes--;
     }
   }
-  public static void selection( ArrayList<Comparable> data )
+
+  public static ArrayList<Comparable> bubble( ArrayList<Comparable> input )
+  {
+    ArrayList<Comparable> copy = new ArrayList<Comparable>();
+    for(Comparable ddd: input){
+      copy.add(ddd);
+    }
+    bubbleSortV(copy);
+    return copy;
+
+  }
+
+  public static void selectionSortV( ArrayList<Comparable> data )
   {
     //note: this version places greatest value at "rightmost" end
 
@@ -43,7 +55,22 @@ public class Sorts{
     }
   }//end selectionSort
 
-  public static void insertion( ArrayList<Comparable> data )
+  public static ArrayList<Comparable> selection( ArrayList<Comparable> input )
+  {
+    //declare and initialize empty ArrayList for copying
+    ArrayList<Comparable> data = new ArrayList<Comparable>();
+
+    //copy input ArrayList into working ArrayList
+    for( Comparable o : input )
+      data.add( o );
+
+    //sort working ArrayList
+    selectionSortV( data );
+
+    return data;
+  }//end selectionSort
+
+  public static void insertionSortV( ArrayList<Comparable> data )
   {
     for(int partition=1;partition<data.size();partition++  ) {
       //partition marks first item in unsorted region
@@ -64,5 +91,21 @@ public class Sorts{
           break;
       }
     }
+
   }//end insertionSortV
+  public static ArrayList<Comparable> insertion( ArrayList<Comparable> input )
+  {
+    //declare and initialize empty ArrayList for copying
+    ArrayList<Comparable> data = new ArrayList<Comparable>();
+
+    //copy input ArrayList into working ArrayList
+    for( Comparable o : input )
+      data.add( o );
+
+    //sort working ArrayList
+    insertionSortV( data );
+
+    //return working ArrayList
+    return data;
+  }//end insertionSort
 }
