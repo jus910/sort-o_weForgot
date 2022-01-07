@@ -2,7 +2,7 @@
 ## Current predictions:
 ### Bubble Sort:
 Worst: The list in descending order
-  * With descending order, the sum of the distances between a value and it's final resting place is as big as it can be, so many swaps are required
+  * With descending order, the sum of the distances between the values and their final resting place is as big as it can be, so many swaps are required
 
 
 Best: The list is in ascending order
@@ -12,7 +12,7 @@ Best: The list is in ascending order
   * It will swap even if the values are in the final resting place 
 ### Insertion Sort:
 Worst: The list in descending order
-  * With descending order, the sum of the distances between a value and it's final resting place is as big as it can be, so many swaps are required
+  * With descending order, the sum of the distances between the values and their final resting place is as big as it can be, so many swaps are required
 
 
 Best: The list is in ascending order
