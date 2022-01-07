@@ -1,4 +1,4 @@
-# sort-o_weForgot
+# Team weforgot: Kevin Li, Justin Mohabir, Jonathan Song
 ## Current predictions:
 ### Bubble Sort:
 Worst: The list in descending order
