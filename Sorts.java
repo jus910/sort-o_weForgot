@@ -2,20 +2,25 @@ import java.util.ArrayList;
 
 public class Sorts{
 
+  public static int swapCounter = 0;
+
   public static void swap(ArrayList<Comparable> data, int index1, int index2){
     Comparable currentVal;
     currentVal=data.get(index1);
     data.set(index1,data.get(index2));
     data.set(index2,currentVal);
+    swapCounter++;
   }
 
   public static void bubbleSortV( ArrayList<Comparable> data )
   {
+    swapCounter = 0;
     int passes = data.size()-1;
     while (passes > 0) {
   	    for(int i = data.size()-1; i>0; i--){
   		    if (data.get(i).compareTo(data.get(i-1)) == -1){
   			    swap(data,i,i-1);
+
   		    }
   	    }
         passes--;
@@ -38,6 +43,7 @@ public class Sorts{
     //note: this version places greatest value at "rightmost" end
 
     //maxPos will point to position of SELECTION (greatest value)
+    swapCounter = 0;
     int maxPos;
 
     for(int i=data.size()-1;i>0;i--) {
@@ -72,6 +78,7 @@ public class Sorts{
 
   public static void insertionSortV( ArrayList<Comparable> data )
   {
+    swapCounter = 0;
     for(int partition=1;partition<data.size();partition++  ) {
       //partition marks first item in unsorted region
       //System.out.println( "\npartition: " + partition + "\tdataset:"); //diag
@@ -108,4 +115,8 @@ public class Sorts{
     //return working ArrayList
     return data;
   }//end insertionSort
+
+  public static int getSwaps(){
+    return swapCounter;
+  }
 }
