@@ -3,6 +3,8 @@
 ### Bubble Sort:
 Worst: The list in descending order
   * With descending order, the sum of the distances between a value and it's final resting place is as big as it can be, so many swaps are required
+
+
 Best: The list is in ascending order
   * With ascending order, no swaps are required
 ### Selection Sort:
@@ -11,5 +13,7 @@ Best: The list is in ascending order
 ### Insertion Sort:
 Worst: The list in descending order
   * With descending order, the sum of the distances between a value and it's final resting place is as big as it can be, so many swaps are required
+
+
 Best: The list is in ascending order
   * The list is already sorted, so no swaps are required
