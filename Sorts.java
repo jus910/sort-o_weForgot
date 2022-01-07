@@ -115,5 +115,8 @@ public class Sorts{
     //return working ArrayList
     return data;
   }//end insertionSort
-  
+
+  public static int getSwaps(){
+    return swapCounter;
+  }
 }
