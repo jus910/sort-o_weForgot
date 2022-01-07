@@ -1,5 +1,5 @@
 # sort-o_weForgot
-Current predictions:
+##Current predictions:
 Bubble Sort:
 Worst: The list in descending order
   * 		With descending order, the sum of the distances between a value and it's final resting place is as big as it can be, so many swaps are required
