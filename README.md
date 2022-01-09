@@ -14,7 +14,7 @@ Best: The list is in ascending order
     * As we can see the graph is the sum of consecutive integers from 0 to x-1
     * Swaps can be represented as a function of n with n being size, as n(0+n-1)/2 by using the formula for the sum of an arithmetic sequence.
     * n(n-1)/2 is a quadratic, so the time complexity is quadratic. 
-  * O(1) time complexity for best case because the slope is constant
+  * O(1) time complexity for best case because the swaps are constant
 
 ### Selection Sort:
   * There is no best and worst case, it is the same for each because it must always check for the greatest
@@ -37,7 +37,7 @@ Best: The list is in ascending order
     * As we can see the graph is the sum of consecutive integers from 0 to x-1
     * Swaps can be represented as a function of n with n being size, as n(0+n-1)/2 by using the formula for the sum of an arithmetic sequence.
     * n(n-1)/2 is a quadratic, so the time complexity is quadratic.
-  * O(1) time complexity for best case because the slope is constant
+  * O(1) time complexity for best case because the swaps are constant
  
 
 
