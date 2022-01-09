@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Driver{
 	public static void main(String[] args){
-		int size=5;
+		int size=6;
 
 		ArrayList glen = Sorts.makeOrderedArrayList(size);
 		System.out.println( "Best Cases: ");

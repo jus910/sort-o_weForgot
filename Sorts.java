@@ -20,6 +20,17 @@ public class Sorts{
     return glen;
   }
 
+  //randomly rearrange elements of an ArrayList
+  public static void shuffle( ArrayList al ) {
+    int randomIndex;
+    for( int i = al.size()-1; i > 0; i-- ) {
+      //pick an index at random
+      randomIndex = (int)( (i+1) * Math.random() );
+      //swap the values at position i and randomIndex
+      al.set( i, al.set( randomIndex, al.get(i) ) );
+    }
+  }
+
   public static void swap(ArrayList<Comparable> data, int index1, int index2){
     Comparable currentVal;
     currentVal=data.get(index1);
