@@ -15,7 +15,7 @@ Best: The list is in ascending order
   * There is no best and worst case, it is the same for each because it must always check for the greatest
   * It will swap even if the values are in the final resting place 
 
-![Selection Sort ](https://user-images.githubusercontent.com/58864927/148703090-d0c49f61-14f9-4ad4-98b7-6443153680cf.png)
+![Selection Sort  (2)](https://user-images.githubusercontent.com/58864927/148703492-97d0381b-e313-4813-b9d8-6bcf06597d43.png)
 
 ### Insertion Sort:
 Worst: The list in descending order
@@ -25,4 +25,5 @@ Worst: The list in descending order
 Best: The list is in ascending order
   * The list is already sorted, so no swaps are required
 
-![Insertion sort](https://user-images.githubusercontent.com/58864927/148703106-2f336d0a-4be5-4285-ba5c-219d327cedca.png)
+![Insertion sort (1)](https://user-images.githubusercontent.com/58864927/148703510-10fbc3a4-d8b7-4525-b0fc-dac343a10c36.png)
+
