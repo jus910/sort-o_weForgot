@@ -1,5 +1,5 @@
 # Team weforgot: Kevin Li, Justin Mohabir, Jonathan Song
-## SOTW: On the Road Again by Willie Nelson
+## SOTW: this song is not a metaphor by Brian David Gilbert
 ## Current predictions:
 ### Bubble Sort:
 Worst: The list in descending order
