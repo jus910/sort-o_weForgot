@@ -13,7 +13,7 @@ Best: The list is in ascending order
   * O(n<sup>2</sup>) time complexity for worst case
   * As we can see the graph is the sum of consecutive integers from 0 to x-1
   * Time can be represented as a function of n with n being size, as n(0+n-1)/2 by using the formula for the sum of an arithmetic sequence.
-  * <sup> n(n-1) </sup>&frasl;<sup> 2 </sup> is a quadratic, so the time complexity is quadratic. 
+  * n(n-1)/2 is a quadratic, so the time complexity is quadratic. 
 
 ### Selection Sort:
   * There is no best and worst case, it is the same for each because it must always check for the greatest
