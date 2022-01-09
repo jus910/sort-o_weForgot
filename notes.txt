@@ -6,7 +6,7 @@
 
 /******************************
  * DISCO
- *
+ *  - We can represent the swaps as a function of the size, specifically as an arithmetic series from 0 to size-1
  * QCC
  *  - Why didn't we find the time complexity for the average case?
  * 
