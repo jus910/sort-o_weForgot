@@ -1,0 +1,42 @@
+// Team we forgot: Justin Mohabir, Jonathan Song, Kevin Li
+// APCS pd8
+// L04-- Never Fear, Big O is Here!
+// 2022-01-09
+// time spent: hrs
+
+/******************************
+ * DISCO
+ *
+ * QCC
+ * 
+ *
+ * BUB-QA
+ * q0: If a pass requires no swaps, what do you know?
+ * a0: It's completely sorted
+ * q1: After pass p, what do you know?
+ * a1: There are p elements in the correct position
+ * q2: How many passes are necessary to completely sort?
+ * a2: size - 1
+ * 
+ * SEL-QA
+ * q0: How many passes to sort n elements?
+ * a0: n-1 passes
+ * q1: What do you know after pass p?
+ * a1: There are p elements in the right place
+ * q2: How do you know if sorted?
+ * a2: We do n-1 passes, so we know n-1 elements are in the right place. The last element then must also be in the right place because there are no other options
+ * q3: What does a pass boil down to?
+ * a3: One loop through the array starting from the initial value
+ * 
+ * INS-QA
+ * q0: How many passes to sort n elements?
+ * a0: n-1 passes
+ * q1: What do you know after pass p?
+ * a1: the elements up to p are sorted, but may not be in their final resting place
+ * q2: How will you know when sorted?
+ * a2: When no more swaps need to be done at the n-1th pass
+ * q3: What constitues a pass?
+ * a3: 1 iteration through the outer loop
+ * q4: What must you track?
+ * a4: The location of the partition in the array
+ ******************************/
