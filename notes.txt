@@ -8,6 +8,7 @@
  * DISCO
  *
  * QCC
+ *  - Why didn't we find the time complexity for the average case?
  * 
  *
  * BUB-QA
