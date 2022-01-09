@@ -10,7 +10,7 @@ Best: The list is in ascending order
   * With ascending order, no swaps are required
 
 ![Bubble Sort (1)](https://user-images.githubusercontent.com/58864927/148703469-6597e575-a952-43a9-ad36-75b99cafc5f6.png)
-  * * O(n<sup>2</sup>) 
+  * O(n<sup>2</sup>) 
 
 ### Selection Sort:
   * There is no best and worst case, it is the same for each because it must always check for the greatest
