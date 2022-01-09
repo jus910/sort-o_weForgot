@@ -4,6 +4,22 @@ public class Sorts{
 
   public static int swapCounter = 0;
 
+  public static ArrayList<Integer> makeOrderedArrayList(int size){
+    ArrayList glen = new ArrayList<Integer>();
+    for(int i=0;i<size;i++){
+      glen.add(i);
+    }
+    return glen;
+  }
+
+  public static ArrayList<Integer> makeReverseArrayList(int size){
+    ArrayList glen = new ArrayList<Integer>();
+    for(int i=size-1;i>=0;i--){
+      glen.add(i);
+    }
+    return glen;
+  }
+
   public static void swap(ArrayList<Comparable> data, int index1, int index2){
     Comparable currentVal;
     currentVal=data.get(index1);
