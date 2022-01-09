@@ -16,6 +16,7 @@ Best: The list is in ascending order
   * It will swap even if the values are in the final resting place 
 
 ![Selection Sort  (2)](https://user-images.githubusercontent.com/58864927/148703492-97d0381b-e313-4813-b9d8-6bcf06597d43.png)
+  * O(n<sup>2</sup>) 
 
 ### Insertion Sort:
 Worst: The list in descending order
