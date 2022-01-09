@@ -27,4 +27,6 @@ Best: The list is in ascending order
   * The list is already sorted, so no swaps are required
 
 ![Insertion sort (1)](https://user-images.githubusercontent.com/58864927/148703510-10fbc3a4-d8b7-4525-b0fc-dac343a10c36.png)
+  * O(n<sup>2</sup>) 
+
 
