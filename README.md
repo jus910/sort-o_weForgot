@@ -1,6 +1,5 @@
 # Team weforgot: Kevin Li, Justin Mohabir, Jonathan Song
 ## SOTW: this song is not a metaphor by Brian David Gilbert
-## Current predictions:
 ### Bubble Sort:
 Worst: The list in descending order
   * With descending order, the sum of the distances between the values and their final resting place is as big as it can be, so many swaps are required
