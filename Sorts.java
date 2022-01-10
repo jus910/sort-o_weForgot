@@ -3,6 +3,9 @@ import java.util.ArrayList;
 public class Sorts{
 
   public static int swapCounter = 0;
+  public static int passCounter = 0;
+  public static int comparisonCounter = 0;
+  
 
   public static ArrayList<Integer> makeOrderedArrayList(int size){
     ArrayList glen = new ArrayList<Integer>();
@@ -42,9 +45,13 @@ public class Sorts{
   public static void bubbleSortV( ArrayList<Comparable> data )
   {
     swapCounter = 0;
+    passCounter = 0;
+    comparisonCounter=0;
     int passes = data.size()-1;
     while (passes > 0) {
+    	    passCounter++;
   	    for(int i = data.size()-1; i>0; i--){
+  	    	    comparisonCounter++;
   		    if (data.get(i).compareTo(data.get(i-1)) == -1){
   			    swap(data,i,i-1);
 
@@ -71,12 +78,16 @@ public class Sorts{
 
     //maxPos will point to position of SELECTION (greatest value)
     swapCounter = 0;
+    passCounter = 0;
+    comparisonCounter=0;
     int maxPos;
 
     for(int i=data.size()-1;i>0;i--) {
+      passCounter++;
       maxPos=i;
 
       for(int n=i;n>=0;n-- ) {
+      	comparisonCounter++;
         if (data.get(maxPos).compareTo(data.get(n)) == -1){
         	maxPos=n;
         }
@@ -106,13 +117,17 @@ public class Sorts{
   public static void insertionSortV( ArrayList<Comparable> data )
   {
     swapCounter = 0;
+    passCounter = 0;
+    comparisonCounter=0;
     for(int partition=1;partition<data.size();partition++  ) {
+      passCounter++;
       //partition marks first item in unsorted region
       //System.out.println( "\npartition: " + partition + "\tdataset:"); //diag
       //System.out.println( data );
 
       //traverse sorted region from right to left
       for(int i=partition;i>0;i--  ) {
+      	comparisonCounter++;
 
         // "walk" the current item to where it belongs
         // by swapping adjacent items

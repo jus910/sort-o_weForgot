@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Driver{
 	
 	public static void main(String[] args){
-		int size=6;
+		int size=4;
 
 		ArrayList glen = Sorts.makeOrderedArrayList(size);
 		System.out.println( "Best Cases: ");
