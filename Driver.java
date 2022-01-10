@@ -9,29 +9,53 @@ public class Driver{
 		System.out.println( "Best Cases: ");
 		Sorts.bubble( glen );
 		System.out.println( "	Bubble Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Bubble Passes: " + Sorts.passCounter);
+		System.out.println( "	Bubble Comparisons: " + Sorts.comparisonCounter);
+
 		Sorts.selection( glen );
 		System.out.println( "	Selection Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Selection Passes: " + Sorts.passCounter);
+		System.out.println( "	Selection Comparisons: " + Sorts.comparisonCounter);
+		
 		Sorts.insertion( glen );
-		System.out.println( "	Insertion Swaps: " + Sorts.swapCounter + "\n");
+		System.out.println( "	Insertion Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Insertion Passes: " + Sorts.passCounter);
+		System.out.println( "	Insertion Comparisons: " + Sorts.comparisonCounter + "\n");
 
 		// A random order of the numbers to compare with the ascending and descending
 		Sorts.shuffle(glen);
 		System.out.println( "Random Case: " + glen);
 		Sorts.bubble( glen );
 		System.out.println( "	Bubble Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Bubble Passes: " + Sorts.passCounter);
+		System.out.println( "	Bubble Comparisons: " + Sorts.comparisonCounter);
+
 		Sorts.selection( glen );
 		System.out.println( "	Selection Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Selection Passes: " + Sorts.passCounter);
+		System.out.println( "	Selection Comparisons: " + Sorts.comparisonCounter);
+		
 		Sorts.insertion( glen );
-		System.out.println( "	Insertion Swaps: " + Sorts.swapCounter + "\n");
+		System.out.println( "	Insertion Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Insertion Passes: " + Sorts.passCounter);
+		System.out.println( "	Insertion Comparisons: " + Sorts.comparisonCounter + "\n");
 
 		glen=Sorts.makeReverseArrayList(size);
 		System.out.println( "Worst Cases: ");
 		Sorts.bubble( glen );
 		System.out.println( "	Bubble Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Bubble Passes: " + Sorts.passCounter);
+		System.out.println( "	Bubble Comparisons: " + Sorts.comparisonCounter);
+
 		Sorts.selection( glen );
 		System.out.println( "	Selection Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Selection Passes: " + Sorts.passCounter);
+		System.out.println( "	Selection Comparisons: " + Sorts.comparisonCounter);
+		
 		Sorts.insertion( glen );
-		System.out.println( "	Insertion Swaps: " + Sorts.swapCounter + "\n");
+		System.out.println( "	Insertion Swaps: " + Sorts.swapCounter);
+		System.out.println( "	Insertion Passes: " + Sorts.passCounter);
+		System.out.println( "	Insertion Comparisons: " + Sorts.comparisonCounter + "\n");
 
 		/*
 		Extra code to further support what we believe are the worst and best cases
